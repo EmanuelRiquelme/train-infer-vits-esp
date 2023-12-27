@@ -11,6 +11,7 @@
 #### Copy all the files from this repository to vits
 `mv train-infer-vits-esp/* vits`
 `cd vits`
+#### Install all of the required dependencies to be able to run Vits in your system.
 #### Generate the json file containing all the parameters of the model to be trainied:
 `python generate_json.py --epochs 400 --batches 9 --fp_16_run True --training_files 'dataset/train.txt.cleaned' --validation_files 'dataset/val.txt.cleaned' --output_name 'configs/def.json'`
 
